@@ -1,0 +1,84 @@
+.root {
+    -fx-background-color: #eddd9e;
+    -fx-font-family: Verdana, Arial, sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-pref-width: 600;
+    -fx-pref-height: 400;
+    -fx-alignment: center;
+}
+
+.scroll-pane {
+    -fx-background: #eddd9e;
+    -fx-alignment: center;
+    -fx-vbar-policy: always;
+}
+
+.tile-pane {
+    -fx-pref-tile-width: 10;
+    -fx-alignment: CENTER;
+}
+
+#bar {
+    -fx-background-color: #000033;
+    -fx-pref-height: 20;
+}
+
+.bar-button {
+    -fx-background-radius: 0;
+    -fx-pref-height: 20;
+}
+
+.bar-button:hover {
+    -fx-background-radius: 0;
+}
+
+.context-menu {
+    -fx-background-color: #000033;
+ }
+
+.label {
+    -fx-text-fill: #000033;
+}
+
+.text-field {
+    -fx-text-fill: #000033;
+    -fx-prompt-text-fill: rgba(0, 0, 41, 0.3);
+}
+
+.button {
+    -fx-background-color: #000033;
+    -fx-text-fill: #eddd9e;
+    -fx-background-radius: 50;
+    -fx-pref-width: 120;
+    -fx-padding: 10;
+}
+
+.button:hover {
+    -fx-background-color: #000066;
+}
+
+.button:pressed {
+    -fx-background-color: #000044;
+}
+
+.text-field {
+    -fx-text-field: #000033;
+}
+
+.choice-box {
+    -fx-background-color: #000033;
+    -fx-background-radius: 50;
+}
+
+.choice-box .context-menu {
+    -fx-background-color: #000033;
+}
+
+.choice-box .root {
+    -fx-background-color: transparent;
+}
+
+.choice-box .label {
+    -fx-text-fill: #eddd9e;
+}
